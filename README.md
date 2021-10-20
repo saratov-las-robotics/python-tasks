@@ -7,7 +7,7 @@
       `(Invoke-WebRequest -Uri https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py -UseBasicParsing).Content | python -`
 3. Перейдите в корень своего репозитория `/`
 4. Инициализируйте poetry: `poetry init`. Она спросит несколько вопросов; на вопрос про интерактивную установку пакетов дважды ответьте "no".
-5. Добавьте dotnev: `poetry add python-dotenv`
+5. Добавьте dotenv: `poetry add python-dotenv`
 6. Создайте файл [`/.env`](/.env)
    1. Напишите в него `radius=2`
 7. Скопируйте мой файл [/src/circle.py](/src/circle.py) и запустите его: `poetry run python src/circle.py`. Если программа отработает корректно - то вы настроили всё правильно, дальше ковыряйте задания. Оформлять можно как угодно: хотите каждое задание в отдельном файле - пожалуйста. Хотите всё в одном - удачи.
